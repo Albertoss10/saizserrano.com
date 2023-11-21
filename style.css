@@ -132,7 +132,7 @@ header nav ul li .active {
   margin-left: 40px;
   justify-content:center;
   color:#333;
-  font-size:1rem;
+  font-size:1.5rem;
   cursor:pointer;
   transition:1.25s;
   z-index:5;
@@ -171,14 +171,14 @@ header nav ul li .active {
   align-items:center;
   justify-content:center;
   border-radius:50%;
-  font-size:1rem;
+  font-size:1.3rem;
   color:var(--clr);
    box-shadow:0 3px 4px rgba(0,0,0,0.15);
   transition:0.5s;
 }
 
 .menu li:hover a{
-  font-size:2rem;
+  font-size:2.6rem;
   box-shadow:0 0 0 2px var(--clr),
     0 0 0 6px #fff;
 }
