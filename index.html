@@ -14,13 +14,13 @@
         <nav>
             <img src="asset/carepy_logo-1.svg" alt="">
             <ul>
-                <li><a href="#about" class="active">About</a></li>
+                <li><a href="#" class="active" onclick="show('about')">About</a></li>
                 <li><a href="./skills/" class="active">Skills</a></li>
                 <li><a href="./experience/" class="active">Experience</a></li>
                 <li><a href="#contact-loc" class="active">Contact</a></li>
             </ul>
             
-            <div class="menu"> <!-- 
+            <div class="menu">
                 <div class="toggle">
                 <ion-icon name="share-social"></ion-icon>
                 </div>
@@ -36,7 +36,7 @@
                 </li>
                 <!-- <li style="--i:3;--clr:#FF5733">
                     <a href="#"><ion-icon name="logo-reddit"></ion-icon></a>
-                </li>
+                </li> -->
                 <li style="--i:4;--clr:#0a66c2">
                     <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
                 </li>
@@ -58,20 +58,16 @@
             </div>
         </div>
     </header>
-    <section class="about">
+    <!-- This is what will be included inside the popup -->
+    <div class="about" id="about">
         <h1>About</h1>
         <div class="description">
             <div class="line"></div>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam quis et cupiditate nisi libero ex
-                debitis enim iusto deleniti voluptate? Quaerat, architecto magnam fuga blanditiis aliquam debitis
-                impedit maxime obcaecati qui, consectetur ad sequi, ullam eius? Dolores quisquam aperiam earum similique
-                totam, perspiciatis incidunt maxime a esse laborum nihil, nisi optio! Sit praesentium ipsa provident,
-                quia deserunt amet neque ut laboriosam ex cum? Voluptatem culpa id maxime iste non quasi eos adipisci
-                quia. Reiciendis maxime quibusdam, enim iusto nam placeat, <span>cum eligendi quisquam temporibus
-                    libero,</span> odio aliquam unde voluptatum voluptates error laboriosam maiores eius cumque ipsum
-                molestiae atque eveniet eos?</p>
+            <p>I'm a 20 years old Software Engineering student in 
+                Universidad Politécnica de Madrid. Passionate about 
+                programming, cybersecurity and mathematics.</p>
         </div>
-    </section>
+    </div>
     <section class="contact-me" id="contact-loc">
         <h1>Contact Me</h1>
         <div class="contact">
