@@ -4,10 +4,13 @@ toggle.addEventListener("click",()=>{
   menu.classList.toggle("active");
 })
 
-$('.portfolio-button').mousedown(function(){
-    timeout = setInterval(function(){
-        window.scrollBy(0,-1); // May need to be -1 to go down
-    }, 0); // Play around with this number. May go too fast
-
-    return false;
-});
+$ = function(id) {
+    return document.getElementById(id);
+  }
+  
+  var show = function(id) {
+      $(id).style.display ='block';
+  }
+  var hide = function(id) {
+      $(id).style.display ='none';
+  }
