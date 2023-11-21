@@ -111,14 +111,6 @@ header nav ul li .active {
   color: #34353b;
 }
 
-body{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  min-height:100vh;
-  background: #262433;
-}
-
 .menu{
   position:relative;
  width:280px;
@@ -191,9 +183,36 @@ body{
 }
 
 .about {
+  display: none;
+  position: fixed;
   height: 50vh;
   width: 100vw;
   padding: 100px;
+  background-color: #34353b;
+  border-radius: 25px;
+  z-index: 20;
+}
+
+#about:after {
+  position: fixed;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: -2;
+}
+
+#about:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #34353b;
+  z-index: -1;
 }
 
 .about h1 {
